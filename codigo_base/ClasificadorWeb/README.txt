@@ -1,0 +1,1 @@
+La aplicación está preparada como BASE INCOMPLETA. Debe terminar las validaciones, el preprocesamiento equivalente al entrenamiento, agregar la cámara o alternativa, exportar TensorFlow.js desde el notebook y colocar los archivos model/model.json y .bin. Servir con python -m http.server 8000 desde esta carpeta. No cargar file://.

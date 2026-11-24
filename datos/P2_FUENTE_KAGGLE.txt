@@ -1,0 +1,8 @@
+Pregunta 2 — Dataset público verificable
+Dataset: Garbage Classification (12 classes)
+Autor: mostafaabla
+URL oficial: https://www.kaggle.com/datasets/mostafaabla/garbage-classification
+Handle de kagglehub: mostafaabla/garbage-classification
+Clases seleccionadas: paper, plastic, metal.
+La descarga se ejecuta dentro de PC2_TecEm_Apellido_Nombre.ipynb (requiere Internet; Kaggle puede pedir autenticación).
+No se incluye copia del dataset de terceros ni se usan imágenes sintéticas para entrenamiento.

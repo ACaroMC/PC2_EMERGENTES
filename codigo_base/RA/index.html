@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Museo RA | Ciclo del agua</title><link rel="stylesheet" href="css/estilos.css">
+<script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+<script src="https://raw.githack.com/AR-js-org/AR.js/3.4.7/aframe/build/aframe-ar.js"></script>
+<script src="js/escena.js"></script><script src="js/controles.js" defer></script>
+</head>
+<body>
+<main id="panel" aria-label="Controles del museo">
+<div class="eyebrow">MUSEO EDUCATIVO · RA</div><h1>El ciclo del agua</h1>
+<p class="intro">Explora cómo el agua viaja entre el cielo, la tierra y los cuerpos de agua.</p>
+<label for="etapa">Selecciona una etapa</label>
+<select id="etapa"><option value="evaporacion">01 · Evaporación</option><option value="condensacion">02 · Condensación</option><option value="precipitacion">03 · Precipitación</option><option value="acumulacion">04 · Acumulación</option></select>
+<div class="stage-title"><span id="numero">01</span><strong id="nombre">Evaporación</strong></div>
+<p id="texto"></p><button id="pausa" type="button">Pausar animación</button>
+<p id="estado" class="status"><span class="dot"></span>Buscando marcador Hiro…</p>
+<a class="offline" href="vista3d.html">Abrir vista 3D sin cámara</a>
+</main>
+<a-scene embedded vr-mode-ui="enabled:false" renderer="alpha:true;antialias:true;colorManagement:true" arjs="sourceType:webcam;debugUIEnabled:false;trackingMethod:best;">
+<a-marker id="hiro" preset="hiro" emitevents="true"><a-entity id="museo" museo-agua position="0 0.2 0" scale="0.5 0.5 0.5"></a-entity></a-marker>
+<a-entity camera></a-entity>
+</a-scene>
+</body></html>

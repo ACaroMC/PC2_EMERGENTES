@@ -1,0 +1,1 @@
+Estas 6 imágenes son auxiliares y sintéticas. NO usarlas para entrenar, validar ni calcular métricas del modelo. El entrenamiento debe realizarse con Kaggle Garbage Classification (mostafaabla) y las clases paper, plastic y metal.

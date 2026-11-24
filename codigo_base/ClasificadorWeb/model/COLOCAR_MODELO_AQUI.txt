@@ -1,0 +1,1 @@
+Copie model.json y archivos .bin generados del modelo entrenado. No se incluye ningún modelo entrenado para no falsear resultados.

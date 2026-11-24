@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Museo ciclo del agua | Vista 3D</title><link rel="stylesheet" href="css/estilos.css">
+<script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script><script src="js/escena.js"></script><script src="js/controles.js" defer></script></head>
+<body class="modo-3d"><div id="panel"><div class="eyebrow">MODO DEMOSTRACIÓN · SIN CÁMARA</div><h1>El ciclo del agua</h1>
+<p class="intro">Vista 3D para revisar la escena sin utilizar el marcador.</p><label for="etapa">Selecciona una etapa</label>
+<select id="etapa"><option value="evaporacion">01 · Evaporación</option><option value="condensacion">02 · Condensación</option><option value="precipitacion">03 · Precipitación</option><option value="acumulacion">04 · Acumulación</option></select>
+<div class="stage-title"><span id="numero">01</span><strong id="nombre">Evaporación</strong></div><p id="texto"></p>
+<button id="pausa" type="button">Pausar animación</button><p id="estado" class="status"><span class="dot"></span>Vista 3D local activa</p>
+<a class="offline" href="index.html">Volver a RA con marcador Hiro</a></div>
+<a-scene background="color:#071c2b" vr-mode-ui="enabled:false" renderer="antialias:true;colorManagement:true"><a-entity id="museo" museo-agua position="0 0 -4"></a-entity><a-entity camera position="0 1.55 0"></a-entity></a-scene>
+</body></html>
