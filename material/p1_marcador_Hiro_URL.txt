@@ -1,0 +1,2 @@
+Marcador Hiro de AR.js: https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/images/hiro.png
+Use una impresión o muestre el marcador en otro dispositivo. En el examen debe aparecer usted utilizando la experiencia con el marcador detectado.

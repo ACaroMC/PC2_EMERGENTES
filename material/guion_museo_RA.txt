@@ -1,0 +1,6 @@
+MUSEO EDUCATIVO: EL CICLO DEL AGUA (CASO FICTICIO)
+Etapa 1: Evaporación. El Sol calienta agua superficial y pasa a vapor.
+Etapa 2: Condensación. Vapor se enfría y forma gotas pequeñas en nubes.
+Etapa 3: Precipitación. Gotas crecen y caen como lluvia.
+Etapa 4: Acumulación. Agua llega a ríos, suelos y lagos.
+Cada etapa: texto explicativo, objeto 3D visible y control de pausa.
